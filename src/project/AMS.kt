@@ -3,7 +3,6 @@ package demo
 import java.util.*
 
 fun main(args: Array<String>) {
-    println("Hello ${args[0]}!")
     feedTheFish()
     eagerExample()
 }
