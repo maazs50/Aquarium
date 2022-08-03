@@ -7,7 +7,7 @@ open class Book(var title: String, var author: String) {
     }
 }
 
-class eBook(title: String, author: String, format: String = "text") : Book(title, author) {
+open class eBook(title: String, author: String, val format: String = "text") : Book(title, author) {
     var wordCount = 0
     override fun readPage() {
         wordCount += 250
